@@ -1,7 +1,7 @@
 import { createClient } from '@supabase/supabase-js';
 
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
+const supabaseUrl = "https://wgyftgqfooxjanhexrvb.supabase.co";
+const supabaseAnonKey = "sb_publishable_F2h1q8lmcZE7LiY12SlC5w_-dQMI1-8";
 
 if (!supabaseUrl || !supabaseAnonKey) {
   console.warn("Supabase credentials missing! Ensure .env is configured.");
